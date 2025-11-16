@@ -1,0 +1,28 @@
+Automação de Coleta de Dados com Python e Selenium
+
+Este projeto automatiza a coleta de dados de uma tabela em um site usando Selenium.
+O script navega pelas páginas, extrai o conteúdo da tabela e salva tudo em uma planilha Excel.
+
+🛠 Tecnologias usadas
+
+Python
+
+Selenium
+
+WebDriver (Chrome)
+
+openpyxl para manipular Excel
+
+📄 Como funciona
+
+O script abre o site do desafio OCR
+
+Aguarda a tabela carregar
+
+Lê todas as linhas da página
+
+Salva no arquivo dados_tabela.xlsx
+
+Avança para a próxima página
+
+Repete esse processo até coletar as 4 páginas
