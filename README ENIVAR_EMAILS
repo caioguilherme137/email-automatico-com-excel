@@ -1,0 +1,24 @@
+Este projeto envia e-mails personalizados usando Python.
+O script lê uma planilha com nomes e e-mails, monta a mensagem e envia um arquivo anexado correspondente a cada pessoa.
+
+🛠 Tecnologias usadas
+
+Python
+
+smtplib para envio dos e-mails
+
+email.mime para montar as mensagens
+
+openpyxl para ler a planilha Excel
+
+📄 Como funciona
+
+O script abre a planilha ListaEmail.xlsx
+
+Para cada linha, ele pega o nome e o e-mail
+
+Procura um arquivo .xlsx com o nome da pessoa (ex: João.xlsx)
+
+Monta o e-mail com um texto simples
+
+Anexa o arquivo e envia automaticamente
