@@ -1,0 +1,24 @@
+Automação de Envio de E-mails com Python
+
+Este projeto faz o envio automático de e-mails personalizados usando Python.
+O script lê uma planilha Excel com nomes e endereços de e-mail, monta a mensagem e envia um arquivo anexo correspondente a cada pessoa.
+
+🛠 Tecnologias usadas
+
+Python
+
+smtplib para envio de e-mails
+
+openpyxl para leitura da planilha
+
+Servidor SMTP do Gmail
+
+📄 Como funciona
+
+O script abre a planilha ListaEmail.xlsx
+
+Para cada pessoa, lê o nome e o e-mail
+
+Procura um arquivo com o mesmo nome (ex: Maria.xlsx)
+
+Monta o e-mail e envia automaticamente
